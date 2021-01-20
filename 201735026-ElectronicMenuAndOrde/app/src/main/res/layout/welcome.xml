@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bosss1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="203dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Welcome"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Menu"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Button
+        android:id="@+id/tracking"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Trackıng"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

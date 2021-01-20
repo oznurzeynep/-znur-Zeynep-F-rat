@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/order"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Order"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="27dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Total"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="277dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/welcome"
+        android:layout_width="107dp"
+        android:layout_height="47dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/black"
+        android:text="Welcome"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/black"
+        android:text="Confırm"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="71dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="number"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="353dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

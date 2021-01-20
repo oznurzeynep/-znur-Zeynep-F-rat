@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:layout_width="418dp"
+        android:layout_height="740dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="103dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Menu"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="83dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/favorites"
+        android:layout_width="101dp"
+        android:layout_height="45dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/black"
+        android:text="Favorıtes"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="101dp"
+        android:layout_height="47dp"
+        android:background="@color/button"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/black"
+        android:text="Order"
+        android:textStyle="italic"
+        app:backgroundTint="@color/button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Spaghetti Bolognese        50$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="215dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Spaghetti Napoliten        40$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Penne Arabiatta           45$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="337dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Bavette Pesto              38$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="398dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Fusulli Masala             40$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Fusulli Malanzane        35$"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:fontFamily="@font/bilbo_swash_caps"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="511dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/spagettiBolonese"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <CheckBox
+        android:id="@+id/spagettiNapoliten"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <CheckBox
+        android:id="@+id/penneArabiatta"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <CheckBox
+        android:id="@+id/bavettePesto"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <CheckBox
+        android:id="@+id/fusulliMasala"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <CheckBox
+        android:id="@+id/fusulliMalanzane"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="561dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/total1"
+        android:layout_width="60dp"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/total"
+        android:layout_alignLeft="@+id/total"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="MissingConstraints,NotSibling,UnknownId"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
